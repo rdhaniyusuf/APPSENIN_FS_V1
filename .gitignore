@@ -1,0 +1,15 @@
+venv/
+
+# Backend
+# Byte-compiled / optimized / DLL files
+*__pycache__/
+
+
+# Frontend
+*node_modules/
+*.next/
+
+APPSENIN_BE/.env
+
+*.env
+
