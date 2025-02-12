@@ -1,10 +1,11 @@
 CREATE TABLE at_sys_msuser (
     user_id SERIAL PRIMARY KEY,
+    user_nip VARCHAR(20) NOT NULL,
     user_name VARCHAR(50) NOT NULL UNIQUE,
     user_fullname VARCHAR(100) NOT NULL,
     user_pass VARCHAR(255) NOT NULL,
-    user_email VARCHAR(100) NOT NULL UNIQUE,
-    user_number VARCHAR(20) NOT NULL UNIQUE,
+    user_email VARCHAR(100) NOT NULL,
+    user_phone VARCHAR(20) NOT NULL,
     user_image BYTEA,
     created_by INT NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
