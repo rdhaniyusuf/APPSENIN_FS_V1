@@ -52,18 +52,8 @@ VALUES (
         TRUE
     ),
     ('Team Leader', 1, 1, TRUE),
-    (
-        'Technical Support',
-        1,
-        1,
-        TRUE
-    ),
-    (
-        'Technical Writer',
-        1,
-        1,
-        TRUE
-    );
+    ('Technical Support',1,1,TRUE),
+    ('Technical Writer',1,1,TRUE);
 
 select * from at_sys_msposition;
 
