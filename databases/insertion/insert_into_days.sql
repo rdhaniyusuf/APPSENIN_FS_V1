@@ -1,3 +1,6 @@
+-- Active: 1739156989671@@127.0.0.1@5432@appsenindb
+
+select * from public.at_sys_msuser;
 INSERT INTO
     at_sys_msdays (
         days_name,
@@ -29,7 +32,7 @@ INSERT INTO
         modified_by,
         is_active
     )
-VALUES ('Administrator', 1, 1, TRUE), ('Team_Leader', 1, 1, TRUE),
+VALUES ('Team_Leader', 1, 1, TRUE),
     ('Tech_Writer', 1, 1, TRUE),
     ('Tech_Support', 1, 1, TRUE);
 
@@ -98,10 +101,10 @@ insert into
     at_sys_msuserrole 
     (user_id,role_id,created_by,created_at,modified_by,modified_at,is_active)
 VALUES 
-    (1, 1, 1,'now()', 2,'now()', TRUE),
-    (2, 2, 1,'now()', 2,'now()', TRUE),
-    (3, 3, 1,'now()', 2,'now()', TRUE),
-    (4, 4, 1,'now()', 2,'now()', TRUE)
+    (1, 1, 1,'now()', 1,'now()', TRUE),
+    (2, 3, 1,'now()', 1,'now()', TRUE),
+    (3, 4, 1,'now()', 1,'now()', TRUE),
+    (4, 5, 1,'now()', 1,'now()', TRUE)
     ;
 
 select * from at_sys_msuserrole;

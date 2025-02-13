@@ -1,4 +1,4 @@
--- Active: 1739191634895@@127.0.0.1@5432@appsenindb@public
+-- Active: 1739156989671@@127.0.0.1@5432@appsenindb
 CREATE TABLE at_sys_msuser (
     user_id SERIAL PRIMARY KEY,
     user_nip VARCHAR(20) NOT NULL,
